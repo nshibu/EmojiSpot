@@ -5,15 +5,13 @@ import { SearchIcon } from "./Icon";
 import EmojiCard from "./EmojiCard";
 import SearchNoContent from "./SearchNoContent";
 
-type Props = {};
-
 interface Emoji {
   title: string;
   symbol: string;
   keywords: string;
 }
 
-function Search({}: Props) {
+function Search() {
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [filteredEmojis, setFilteredEmojis] = useState<Emoji[]>(EMOJI_LIST);
 

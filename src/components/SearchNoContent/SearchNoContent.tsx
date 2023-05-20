@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { NoContent } from "./Icon";
+import { NoContent } from "../Icon";
 
 interface NoContentProps {
   searchTerm: string;

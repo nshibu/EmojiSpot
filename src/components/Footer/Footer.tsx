@@ -1,5 +1,5 @@
-import Container from "./Container";
-import { ReactSvg, TailwindCSSSvg } from "./Icon";
+import Container from "../Container";
+import { ReactSvg, TailwindCSSSvg } from "../Icon";
 
 const Footer = () => {
   return (

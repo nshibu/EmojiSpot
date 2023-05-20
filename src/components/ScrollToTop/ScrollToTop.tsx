@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ArrowUp } from "./Icon";
+import { ArrowUp } from "../Icon";
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
