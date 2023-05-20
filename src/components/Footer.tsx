@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Container>
       <div className="mt-20 border-t  border-gray-300 py-4 text-center">
-        <div className="text-md flex items-center justify-center gap-2 font-bold uppercase">
+        <div className="text-md mb-2 flex items-center justify-center gap-2 font-bold uppercase dark:text-slate-400">
           MADE WIDTH{" "}
           <span>
             <ReactSvg />

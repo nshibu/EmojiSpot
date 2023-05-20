@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ScrollToTopButton from "./components/ScrollToTop";
 import Search from "./components/Search";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Search />
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

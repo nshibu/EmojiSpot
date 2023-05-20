@@ -6,7 +6,7 @@ interface NoContentProps {
 }
 const SearchNoContent: FC<NoContentProps> = ({ searchTerm }) => {
   return (
-    <div className="my-20  flex flex-col items-center gap-3">
+    <div className="my-20  flex flex-col items-center gap-3 text-center">
       <NoContent />
       <h2 className="dark:text-slate-400">
         We're sorry we don't have emoji's for <b>{searchTerm}</b>
